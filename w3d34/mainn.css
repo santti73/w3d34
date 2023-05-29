@@ -1,0 +1,155 @@
+html, body, h1, h2, h3, p, ol, ul, li, a {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	font-size: 100%;}
+body {
+    width: auto;
+    height: auto;
+}
+    h1 {
+        padding-bottom: 17px;
+        text-align: center;
+        font-size: 140px;
+        color: #ffffff;
+        margin: 200px 650px 25px 650px;
+        border-bottom: 3px solid #ffffff;
+        font-family: font;
+    }
+    h3 {
+        text-align: right;
+        font-size: 25px;
+        padding: 39px 0px 10px 0px;
+        color: #ffffff;
+        font-family: font;
+        margin-left: 115px;
+        border-bottom: 3px solid #ffffff;
+    }
+    .freshfoods {
+        text-align: center;
+        font-size: 65px;
+        color: #ffffff;
+        font-family: font2;
+    }
+    .container1 {
+        width: auto;
+        height: 900px;
+        background: url(green-vegetables-on-brown-wooden-chopping-board-3952047.jpg)top center repeat;
+    }
+    #navegation {
+        width: auto;
+        height: 85px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start; }
+        #nav {
+            
+            display: flex;
+            flex-flow: row nowrap;
+            flex-grow: 1;
+            justify-content: flex-end;
+            border-bottom: 3px solid #ffffff;
+            margin-right: 115px;
+           
+          }   
+        ul li {
+            display: inline-flex;
+        }
+        
+        li a {
+            padding: 52px 20px 10px 20px;
+            text-decoration: none;
+            font-family: font;
+            color: #ffffff;
+            font-size: 18px;
+            text-align: center;
+            
+        }
+        li a:hover {
+            color: rgba(139, 76, 18, 0.932);
+        }     
+        @font-face {
+            font-family: font;
+            src: url(PoltawskiNowy-Italic-VariableFont_wght.ttf);
+        }
+        @font-face {
+            font-family: font2;
+            src: url(SignikaNegative-VariableFont_wght.ttf);
+        }
+        #lorem {
+            text-align: left;
+            color: #ffffff;
+            height: 400px;
+            width: auto;
+            display: flex;
+            background-color: black;
+        }
+        .loreminfo {
+            padding: 100px 100px 50px 120px;
+            height: 70px;
+        }
+        .loremimg {
+            
+        }
+        .loremtitle {
+            font-size: 45px;
+            text-align: left;
+            padding-bottom: 30px;
+            font-family: font;
+        }
+        .loremtext {
+            font-size: 25px;
+            font-family: font2;
+        }
+        #pineapple {
+            color: #ffffff;
+            display: flex;
+            height: 400px;
+            width: auto;
+            flex-flow: row nowrap;
+            background-color: rgb(19, 18, 18);
+        }
+        .pineappleinfo {
+            padding: 100px 550px 50px 120px;
+            height: 70px;
+            
+        }
+        .pineappleimg {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+        }
+        .pineappletitle {
+            font-size: 45px;
+            font-family: font;
+            text-align: left;
+        }
+        .pineappletext {
+           font-size: 25px;
+           font-family: font2;
+           text-align: left;
+        }
+
+        #pasta {
+            display: flex;
+            width: auto;
+            height: 400px;
+            background-color: rgb(41, 40, 40);
+            color: #ffffff;
+        }
+        .pastainfo {
+            padding: 100px 100px 50px 120px;
+            height: 70px;
+        }
+        .pastatext {
+            font-size: 25px;
+            font-family: font2;
+            text-align: left;
+        }
+        .pastatitle {
+            font-size: 45px;
+            font-family: font;
+            text-align: left;
+        }
+        
+    
